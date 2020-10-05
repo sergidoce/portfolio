@@ -6,7 +6,7 @@ function Introduccio() {
   return (
 
     <div>
-      <div className = 'bg-blue-900 h-screen w-screen'>
+      <div className = 'bg-blue-900 h-screen'>
           <div className = 'container mx-auto h-full flex px-8 items-center  bg-blue-900'>
             <div>
               <div className = 'bg-blue-900 flex h-auto'>
@@ -46,8 +46,6 @@ function Introduccio() {
             </div>
           </div>
         </div>
-
-        <p>Hola</p>
        
     </div>
   );
