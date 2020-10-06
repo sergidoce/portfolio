@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 function AboutMe() {
   return (
 
-    <div className = 'bg-green-900 '>
+    <div className = 'bg-green-900 h-screen '>
       <div className = 'container mx-auto h-full flex px-8 items-center'>
         <div>
           <div className = ' flex h-auto'>
@@ -23,28 +23,53 @@ function AboutMe() {
 
             </div>
 
-            <div className = 'w-1/2 text-white m-auto px-5'>
+            <div className = 'w-1/2 text-white mx-auto px-5'>
               <div className = 'flex justify-center'>
                 <img src="/images/code-icon.png" alt=""/>
 
               </div>
-              <div className = ''>
-                <p>Educación</p>
-                <ul className = 'list-disc'>
-                  <li>
-                    Elemento 1
-                  </li>
-                  <li>
-                    Elemento 2
-                  </li>
-                  <li>
-                    Elemento 3
-                  </li>
-                  <li>
-                    Elemento 4
-                  </li>
-               
-                </ul>
+              <div className = 'font-MontserratSemiBold text-xl flex justify-center'>
+                <div>
+                  <div className = 'border-b-4'>
+                    <div className='mb-10'>
+                      <p>Educación</p>
+                      <ul className = 'list-disc list-inside'>
+                        <li>
+                          Elemento 1
+                        </li>
+                        <li>
+                          Elemento 2
+                        </li>
+                        <li>
+                          Elemento 3
+                        </li>
+                        <li>
+                          Elemento 4
+                        </li>
+                    
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className='mt-10'>
+                    <p>Habilidades</p>
+                    <ul className = 'list-disc list-inside'>
+                      <li>
+                        Elemento 1
+                      </li>
+                      <li>
+                        Elemento 2
+                      </li>
+                      <li>
+                        Elemento 3
+                      </li>
+                      <li>
+                        Elemento 4
+                      </li>
+                  
+                    </ul>
+                  </div>
+                </div>
 
               </div>
 
