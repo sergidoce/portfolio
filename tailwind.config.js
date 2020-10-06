@@ -22,6 +22,11 @@ module.exports = {
         },
         fontSize : {
           '7xl': '4.5rem'
+        },
+
+        color : {
+
+          
         }
       },
     },
