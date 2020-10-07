@@ -21,7 +21,7 @@ function Introduccio() {
                     <div className = 'flex justify-center items-center mt-10'>
 
                       <div className = 'w-1/2 flex justify-center'>
-                        <img src="/images/Github_Logo_White.png" className='h-16' alt=""/>
+                        <img src="/images/GitHub_Logo_White.png" className='h-16' alt=""/>
                       </div>
                       <div className = 'w-1/2 flex justify-center'>
                         <img src="/images/LI-Logo.png" className='h-12' alt=""/>
