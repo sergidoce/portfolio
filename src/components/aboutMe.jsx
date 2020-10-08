@@ -5,23 +5,22 @@ import ReactDOM from 'react-dom';
 function AboutMe() {
   return (
 
-    <div className = 'bg-green-900 py-10 '>
+    <div className = 'bg-green-900 py-40 '>
       
       <div className = 'container mx-auto h-full flex px-8 items-center'>
         <div>
           <h1 className='text-shadow text-white px-5 text-7xl font-rubikMonoOne'>SOBRE MÍ</h1>
-          <div className = ' flex h-auto'>
+          <div className = 'flex h-auto'>
             <div className = 'w-1/2 text-white m-auto px-5 mt-0'>
-              <div className='h-1/2'>
-                
+              <div className=''>             
                 <p className = 'text-xl text-justify font-MontserratSemiBold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                   ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
                   in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
                   sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
                   </p>
               </div>
-              <div className = 'flex justify-center h-1/2'>
-                <img src="/images/code-icon.png" alt=""/>
+              <div className = 'flex justify-center mt-10'>
+                <img src="/images/foto1.jpeg" alt="" className = 'shadow rounded-full h-3/4 w-3/4 border-4 border-black'/>
 
               </div>
 
@@ -68,6 +67,9 @@ function AboutMe() {
                     <h3 className='underline text-2xl'>Habilidades</h3>
                     <ul className = 'list-disc list-inside'>
                       <li>
+                        C
+                      </li>
+                      <li>
                         C++
                       </li>
                       <li>
@@ -105,7 +107,12 @@ function AboutMe() {
           </div>
 
 
-
+          <div className='flex justify-center pt-20'>  
+            <h3 className='font-rubikMonoOne text-2xl text-white'>Mis proyectos</h3>
+          </div>
+          <div className='flex justify-center pt-5'>
+            <img src="/images/down-arrow-white.png" className='h-20 w-20' alt=""/>
+          </div>
         </div>
 
       </div>

@@ -7,7 +7,7 @@ function Introduccio() {
 
     <div>
       <div className = 'bg-blue-900 h-screen'>
-          <div className = 'container mx-auto h-full flex px-8 items-center  bg-blue-900'>
+          <div className = 'container mx-auto h-full flex px-8 items-center'>
             <div>
               <div className = 'bg-blue-900 flex h-auto'>
                   <div className = 'w-1/2 text-white m-auto'>
@@ -38,7 +38,7 @@ function Introduccio() {
                   
               </div>
               <div className='flex justify-center pt-20'>  
-                <h3 className='font-rubikMonoOne text-2xl text-gray-300'>Descubre más</h3>
+                <h3 className='font-rubikMonoOne text-2xl text-white'>Descubre más</h3>
               </div>
               <div className='flex justify-center pt-5'>
                 <img src="/images/down-arrow-white.png" className='h-20 w-20' alt=""/>
