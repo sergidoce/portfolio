@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 function AboutMe() {
   return (
 
-    <div className = 'bg-green-900 py-40 '>
+    <div className = 'bg-green-900 py-20 '>
       
       <div className = 'container mx-auto h-full flex px-8 items-center'>
         <div>
@@ -20,7 +20,7 @@ function AboutMe() {
                   </p>
               </div>
               <div className = 'flex justify-center mt-10'>
-                <img src="/images/foto1.jpeg" alt="" className = 'shadow rounded-full h-3/4 w-3/4 border-4 border-black'/>
+                <img src="/images/foto1.jpeg" alt="" className = 'shadow rounded-full h-3/4 w-3/4 border-4 border-white'/>
 
               </div>
 
