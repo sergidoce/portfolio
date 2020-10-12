@@ -12,10 +12,10 @@ function Introduccio() {
               <div className = 'bg-blue-900 flex h-auto'>
                   <div className = 'w-1/2 text-white m-auto'>
                     <div className = ''>
-                        <h1 className='text-shadow text-7xl font-rubikMonoOne '>SERGI DOCE</h1>
+                        <h1 className='text-shadow font-rubikMonoOne text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl '>SERGI DOCE</h1>
                     </div>
                     <div className = ''>
-                      <h2 className = 'text-3xl font-MontserratSemiBold'>Estudiante de Ingeniería del Software en la Universitat Politècnica de Catalunya</h2>
+                      <h2 className = 'font-MontserratSemiBold text-sm sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>Estudiante de Ingeniería del Software en la Universitat Politècnica de Catalunya</h2>
                     </div>
 
                     <div className = 'flex justify-center items-center mt-10'>
@@ -38,7 +38,7 @@ function Introduccio() {
                   
               </div>
               <div className='flex justify-center pt-20'>  
-                <h3 className='font-rubikMonoOne text-2xl text-white'>Descubre más</h3>
+                <h3 className='font-rubikMonoOne text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>Descubre más</h3>
               </div>
               <div className='flex justify-center pt-5'>
                 <img src="/images/down-arrow-white.png" className='h-20 w-20' alt=""/>
