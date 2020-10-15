@@ -8,8 +8,8 @@ function Proyectos() {
   return (
 
     <div>
-      <div className = 'bg-blue-900 py-20'>
-        <div className = 'container mx-auto h-full flex px-8 items-center py-20'>
+      <div className = 'bg-blue-900 py-10'>
+        <div className = 'container mx-auto h-full flex px-8 items-center py-10'>
             <div className = 'px-5'>
                 <h1 className='text-shadow text-white font-rubikMonoOne text-3xl'>MIS PROYECTOS</h1>
                 <div className = 'mt-20'>
@@ -44,7 +44,7 @@ function Proyectos() {
             
 
         </div>
-        <div className='flex justify-center pt-20'>  
+        <div className='flex justify-center pt-10'>  
           <h3 className='font-rubikMonoOne text-sm text-white'>Contacto</h3>
         </div>
         <div className='flex justify-center pt-5'>

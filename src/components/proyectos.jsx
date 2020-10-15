@@ -8,12 +8,12 @@ function Proyectos() {
   return (
 
     <div>
-      <div className = 'bg-blue-900 py-20'>
+      <div className = 'bg-blue-stone py-20'>
         <div className = 'container mx-auto h-full flex px-8 items-center py-20'>
             <div className = 'px-5'>
                 <h1 className='text-shadow text-white font-rubikMonoOne text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl'>MIS PROYECTOS</h1>
                 <div className = 'mt-20'>
-                    <h2 className='text-white  font-rubikMonoOne text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>PROYECTOS PERSONALES</h2>
+                    <h2 className='text-white  font-MontserratSemiBold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>PROYECTOS PERSONALES</h2>
                     <div className = 'mt-10 flex flex-wrap justify-center'>
                         
                       <Card  title = "Proyecto 1" definition = "Este es el proyecto numero 1" image = "/images/GitHub_Logo_White.png"></Card>
@@ -27,7 +27,7 @@ function Proyectos() {
                 </div>
 
                 <div className = 'mt-20'>
-                    <h2 className='text-white font-rubikMonoOne text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>PROYECTOS UNIVERSITARIOS</h2>
+                    <h2 className='text-red-autumn font-MontserratSemiBold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>PROYECTOS UNIVERSITARIOS</h2>
                     <div className = 'mt-10 flex flex-wrap justify-center'>
                         
                       <Card  title = "Proyecto 1" definition = "Este es el proyecto numero 1" image = "/images/GitHub_Logo_White.png"></Card>

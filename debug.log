@@ -1,0 +1,2 @@
+[1015/175858.443:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\sergi\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\2a68b4df-0c33-49db-8cea-e7f05af0109e: El sistema no puede encontrar la ruta especificada. (0x3)
+[1015/180701.664:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)

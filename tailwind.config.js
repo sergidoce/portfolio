@@ -9,7 +9,7 @@ module.exports = {
     theme: {
 
       textShadow: {
-        'default' : '0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;'
+        'default' : '2px 2px 0 #3399FF, 2px -2px 0 #3399FF, -2px 2px 0 #3399FF, -2px -2px 0 #3399FF, 2px 0px 0 #3399FF, 0px 2px 0 #3399FF, -2px 0px 0 #3399FF, 0px -2px 0 #3399FF'
       },
 
       extend: {
@@ -17,15 +17,23 @@ module.exports = {
         fontFamily: {
 
           'rubikMonoOne' : ['Rubik Mono One', 'sans-serif'],
-          'MontserratSemiBold' : ['Montserrat', 'sans-serif']
+          'MontserratSemiBold' : ['Montserrat', 'sans-serif'],
+          'Terminal' : ['VT323', 'monospace'],
+          'Catamaran' : ['Catamaran', 'sans-serif']
 
         },
         fontSize : {
           '7xl': '4.5rem'
         },
 
-        color : {
-
+        colors : {
+          
+          'blue-mist': '#90AFC5',
+          'blue-stone': '#336B87',
+          'dark-shadow': '#2A3132',
+          'red-autumn': '#763626',
+          'color-primario' : '#FFFFFF',
+          'color-secundario' : '#3399FF',
           
         }
       },

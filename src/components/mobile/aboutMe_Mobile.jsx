@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 function AboutMe() {
   return (
 
-    <div className = 'bg-green-900 py-20 '>
+    <div className = 'bg-green-900 py-10 '>
       
       <div className = 'container mx-auto h-full flex px-8 items-center text-white'>
         <div>
