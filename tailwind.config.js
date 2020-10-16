@@ -35,6 +35,10 @@ module.exports = {
           'color-primario' : '#FFFFFF',
           'color-secundario' : '#3399FF',
           
+        },
+
+        width : {
+          '128' : '32rem',
         }
       },
     },

@@ -21,9 +21,10 @@ function AboutMe() {
       </div>
 
       <div className='bg-color-primario'>
-        <div className='container mx-auto flex justify-center font-Catamaran my-20'>
-          <div>
+        <div className='container mx-auto flex justify-center font-Catamaran py-10 '>
+          <div className='flex justify-center flex-wrap border-b-4 border-color-secundario'>
             <h2 className='text-5xl text-center'>Tecnología y lenguajes que uso.</h2>
+            <h3 className='text-3xl text-center justify-center w-3/4'>Estas son las herramientas que he ido aprendiendo a lo largo de mi vida ya sea de forma académica o en formato de autoaprendizaje.</h3>
             <div className='flex flex-wrap justify-center'>
               
               <div className='flex justify-center items-center h-64 mx-10 my-10'>
