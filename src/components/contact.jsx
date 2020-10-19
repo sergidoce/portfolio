@@ -47,19 +47,19 @@ class Contact extends React.Component {
         <div className = 'bg-color-secundario py-20'>
           <div className = 'container mx-auto h-full flex justify-center font-Catamaran'>
               <div className = ''>
-                  <h1 className='text-color-primario text-5xl '>¿Quieres contactar conmigo?</h1>
+                  <h1 className='text-color-primario text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl '>¿Quieres contactar conmigo?</h1>
                   <div className = 'mt-10 text-color-primario'>
                      <form action="" onSubmit={this.sendEmail}>
-                        <div className = 'flex justify-center'>
-                            <div className = 'w-1/2 flex'>
+                        <div className = 'flex'>
+                            <div className = ' flex'>
                                 <div>
-                                    <label className = 'block tracking-wide text-3xl mb-2' htmlFor="">Nombre</label>
+                                    <label className = 'block tracking-wide text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl mb-2' htmlFor="">Nombre</label>
                                     <input id = 'name' name = 'from_name' className = 'appearance-none w-full bg-color-secundario border rounded py-3 px-4 mb-3 ' type="text"/>
                                 </div>
                             </div>
-                            <div className = 'w-1/2 flex '>
+                            <div className = 'flex ml-5'>
                                 <div>
-                                    <label className = 'block tracking-wide text-3xl mb-2' htmlFor="">Apellido</label>
+                                    <label className = 'block tracking-wide text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl mb-2' htmlFor="">Apellido</label>
                                     <input id = 'surname' name = 'from_surname' className = 'appearance-none w-full bg-color-secundario border rounded py-3 px-4 mb-3 ' type="text"/>
                                 </div>
                             </div>
@@ -67,12 +67,12 @@ class Contact extends React.Component {
                         </div>
                                                  
                         <div className = 'mt-10'>
-                            <label className = 'block tracking-wide text-3xl mb-2' htmlFor="">E-mail</label>
+                            <label className = 'block tracking-wide text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl mb-2' htmlFor="">E-mail</label>
                             <input id = 'email' name = 'from_email' className = 'appearance-none w-full bg-color-secundario border rounded py-3 px-4 mb-3 ' type="text"/>     
                         </div>
 
                         <div className = 'mt-10'>
-                            <label className = 'block tracking-wide text-3xl mb-2' htmlFor="">Mensaje</label>
+                            <label className = 'block tracking-wide text-2xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl mb-2' htmlFor="">Mensaje</label>
                             <textarea id = 'message' name = 'message' className = 'appearance-none h-64 w-full bg-color-secundario border rounded py-3 px-4 mb-3 ' type="text"/>     
                         </div>
 

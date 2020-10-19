@@ -8,6 +8,7 @@ import Introduccio from './components/introduccio';
 import AboutMe from './components/aboutMe';
 import Proyectos from './components/proyectos';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 //Mobile version
 
@@ -61,6 +62,7 @@ class App extends React.Component {
           <AboutMe></AboutMe>
           <Proyectos></Proyectos>
           <Contact></Contact>
+          <Footer></Footer>
         </div>
       );
     }

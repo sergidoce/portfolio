@@ -11,17 +11,17 @@ function Introduccio() {
             <div>
                 <div className = 'flex justify-center'>
                   <div className = 'inline-block'>
-                    <h1 className='font-Catamaran  typewriter text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-7xl '>¡Hola! Soy Sergi Doce.</h1>
+                    <h1 className='font-Catamaran  typewriter text-black text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-7xl '>¡Hola! Soy Sergi Doce.</h1>
                   </div>   
                 </div>
                 <div className='flex justify-center mt-5'>
                   <div className='w-3/4'>
-                    <h2 className = 'fade-in-1 font-Catamaran text-center text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl'>Estudiante de Ingeniería del Software en la Universitat Politècnica de Catalunya</h2>
+                    <h2 className = 'fade-in-1 font-Catamaran text-center text-base sm:text-base md:text-base lg:text-xl xl:text-3xl'>Estudiante de Ingeniería del Software en la Universitat Politècnica de Catalunya</h2>
                   </div>
                 </div>
                 
                 <div className = 'flex justify-center mt-20'>
-                      <img src="/images/illustration_2.svg" className='h-64 w-auto fade-in-1' alt=""/>
+                      <img src="/images/illustration_2.svg" className='h-32 sm:h-40 md:h-48 lg:h-56 xl:h-64 w-auto fade-in-1' alt=""/>
                 </div>    
               </div>        
           </div>
