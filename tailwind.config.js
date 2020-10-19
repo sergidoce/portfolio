@@ -33,7 +33,7 @@ module.exports = {
           'dark-shadow': '#2A3132',
           'red-autumn': '#763626',
           'color-primario' : '#FFFFFF',
-          'color-secundario' : 'f',
+          'color-secundario' : '#3399FF',
           
         },
 

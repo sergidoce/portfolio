@@ -16,6 +16,7 @@ import Introduccio_Mobile from './components/mobile/introduccio_Mobile';
 import AboutMe_Mobile from './components/mobile/aboutMe_Mobile';
 import Proyectos_Mobile from './components/mobile/proyectos_Mobile';
 import Contact_Mobile from './components/mobile/contact_Mobile';
+import Footer_Mobile from './components/mobile/footer_Mobile';
 
 
 class App extends React.Component {
@@ -52,6 +53,7 @@ class App extends React.Component {
           <AboutMe_Mobile></AboutMe_Mobile>
           <Proyectos_Mobile></Proyectos_Mobile>
           <Contact_Mobile></Contact_Mobile>
+          <Footer_Mobile></Footer_Mobile>
         </div>
       );
     } else{
