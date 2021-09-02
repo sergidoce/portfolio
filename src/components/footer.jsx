@@ -11,10 +11,6 @@ function Footer() {
           <div>
             <h3 className='text-xl'>Página diseñada y desarrollada por mí</h3>
           </div>
-          <div className = 'flex justify-center h-8 mt-5 '>
-              <h3 className='text-xl my-auto'>Made with</h3>
-              <img src="/images/tailwind-logo.png" alt="" className='h-6 w-auto my-auto ml-2' />
-          </div>
           <div className = 'flex justify-center h-8 mt-5'>
               <a href="https://www.linkedin.com/in/sergi-doce-48a1b1119/">
                 <img src="/images/LI-Logo_Blue.png" alt="" className='h-6 w-auto my-auto mr-2' />

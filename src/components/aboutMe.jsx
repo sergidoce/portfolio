@@ -10,11 +10,12 @@ function AboutMe() {
         <div className='container mx-auto flex justify-center font-Catamaran'>
           <div className='my-20 w-3/4'> 
             <h2 className = 'text-2xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-center'>¡Buenas! Encantado de conocerte.</h2>
-            <p className = 'text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-justify mt-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque dignissimos culpa iste autem! Modi veniam dolorum eveniet hic a ab animi labore repudiandae et, vel natus temporibus sunt sapiente. Magnam.</p>
-
+            <p className = 'text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-justify mt-5'>Mi nombre es Sergi Doce y soy un estudiante de Ingeniería Informática en la FIB (Facultad de Informática de Barcelona). Aunque he estudiado la mayoría de mi carrera en Barcelona, ahora me
+              encuentro en un programa de intercambio en la Universidad Técnica de Dinamarca (DTU). Estoy ansioso por entrar en el mundo laboral, es por esto que ahora mismo estoy buscando una empresa donde poder desarrollar mis prácticas.</p>
             <div className='flex flex-wrap justify-center mt-10'>
-              <img src="/images/foto1.jpeg" className='h-auto w-32 sm:w-32 md:w-48 lg:w-56 xl:w-64 rounded-full mx-12 shadow-xl my-10' alt=""/>
-              <img src="/images/logo_upc.png" className='h-auto w-32 sm:w-32 md:w-48 lg:w-56 xl:w-64 mx-12 rounded-full shadow-xl my-10' alt=""/>
+              <img src="/images/foto1.jpeg" className='h-auto w-24 sm:w-24 md:w-32 lg:w-48 xl:w-56 rounded-full mx-8 shadow-xl my-10' alt=""/>
+              <img src="/images/logo_upc.png" className='h-auto w-24 sm:w-24 md:w-32 lg:w-48 xl:w-56 mx-8 rounded-full shadow-xl my-10' alt=""/>
+              <img src="/images/DTU_LOGO.jpg" className='h-auto w-24 sm:w-24 md:w-32 lg:w-48 xl:w-56 mx-8 rounded-full shadow-xl my-10' alt=""/>
             </div>
           </div>
         </div>
