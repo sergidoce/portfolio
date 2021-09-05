@@ -9,7 +9,7 @@ function Footer() {
       <div className='container m-auto py-10 flex justify-center text-color-secundario font-Catamaran'>
         <div>
           <div>
-            <h3 className='text-xl'>Página diseñada y desarrollada por mí</h3>
+            <h3 className='text-xl'>Web page designed and developed by myself</h3>
           </div>
           <div className = 'flex justify-center h-8 mt-5'>
               <a href="https://www.linkedin.com/in/sergi-doce-48a1b1119/">

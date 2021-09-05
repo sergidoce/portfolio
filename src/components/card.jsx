@@ -15,7 +15,9 @@ class Card extends React.Component {
               <p className = 'text-lg text-justify'>{this.props.descripcion}</p>
             </div>
             <div className='flex justify-center space-x-4 mt-5'>
-              <button className='bg-white hover:bg-color-secundario text-color-secundario hover:text-white py-2 px-4 rounded-full'>Github</button>
+              <a href={this.props.link}>
+                <button className='bg-white hover:bg-color-secundario text-color-secundario hover:text-white py-2 px-4 rounded-full'>Github</button>
+              </a>
             </div>
          </div>
       </div>
