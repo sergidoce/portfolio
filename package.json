@@ -40,7 +40,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "tailwindcss-textshadow": "^2.1.3"
-  }
+  "devDependencies": {}
 }
